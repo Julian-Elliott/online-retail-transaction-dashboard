@@ -75,4 +75,3 @@ If a product description was missing, that row was removed (e.g., a transaction 
 Cancelled orders (e.g., InvoiceNo like 'C12345') and returns (transactions with negative quantities) were excluded from the analysis.
 
 Only transactions with a valid country were kept for geographic reporting.
->>>>>>> Stashed changes
