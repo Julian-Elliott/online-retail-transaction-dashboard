@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # Online Retail Transaction Dashboard
 
 **Online Retail Transaction Dashboard** is a comprehensive data analytics tool designed to streamline customer behavior analysis and sales trend exploration. Using the Online Retail dataset, we developed an interactive dashboard to support data-driven decision-making across product performance, customer segmentation, and geographic markets.
@@ -41,9 +40,7 @@ The dataset contains records of transactions made through an online retail platf
 
 ---
 
-
-=======
-# Data Cleaning Summary
+## Data Cleaning Summary
 This project focuses on preparing transaction data for accurate, consistent, and meaningful sales analysis. Below is a clear summary of the data cleaning steps followed.
 
 ### Data Cleaning Steps
