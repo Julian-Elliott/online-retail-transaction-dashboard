@@ -1,35 +1,24 @@
-User Persona: Alex Morgan
-Job Title: Sales Strategist
-Industry: Global E-commerce / Consumer Electronics
+👤 User Persona: Alex Morgan
+Role: Head of International Logistics & Fulfilment
 Location: Glasgow, UK
 Age: 35
-Education: BBA in International Business
-Experience: 8 years in sales performance strategy and logistics
 
 Background
-Alex is a strategic thinker who works at the intersection of sales data and operational logistics. With a strong interest in rock music and regional cultures, he enjoys understanding how consumer behavior varies across countries and tailoring sales strategies accordingly.
+Alex oversees the logistics and fulfilment operations for the retailer’s international markets. He uses sales and regional performance data to allocate inventory, adjust shipping strategies, and streamline delivery windows. With a passion for rock music and global culture, Alex also advocates for tailored delivery experiences by region.
 
 Goals
-Analyse geographic sales performance by region and product category.
+Track sales volumes by region to anticipate fulfilment needs.
 
-Improve targeted marketing and campaign focus by territory.
+Improve delivery speed and reliability in international markets.
 
-Optimise shipping and inventory resources for high-performing markets.
+Support localised inventory distribution based on demand.
 
 Challenges
-Managing international differences in pricing, demand, and product preferences.
+Forecasting demand in emerging markets.
 
-Delays in regional sales reporting.
+Managing delivery partner performance and costs.
 
-Coordinating marketing and fulfilment for global promotions.
-
-Personality & Traits
-Data-driven yet creative
-
-Music lover, enjoys travelling to music festivals
-
-Big believer in localisation over standardisation
+Reducing delays caused by international regulations.
 
 Quote
-“Selling smarter means knowing where your loudest fans are—and how to ship to them fast.”
-
+“The product’s only half the experience—how and when it arrives matters just as much.”

@@ -1,34 +1,47 @@
- User Persona: Sarah Patel
-Job Title: Marketing Analyst – Retail Division
-Industry: Fashion & Lifestyle Retail
+👤 User Persona: Sarah Patel
+Role: E-commerce Merchandising Lead
 Location: Leeds, UK
 Age: 29
-Education: MSc in Consumer Behaviour & Analytics
-Experience: 5 years in product-level marketing analysis and retail performance forecasting
 
 Background
-Sarah works for a national high-street fashion brand and is focused on aligning promotional strategies with product performance. She uses data to make strategic recommendations for stock planning, markdown timing, and campaign focus areas.
+Sarah leads the merchandising team for an online fashion store. Her primary focus is ensuring that high-demand products are featured and stocked appropriately across the digital storefront. She monitors product-level performance and collaborates with marketing and supply chain teams to influence promotional timing and inventory prioritisation.
 
 Goals
-Identify top-performing products that drive the majority of revenue.
+Identify top-selling products that drive revenue.
 
-Align stock availability with high-demand items.
+Optimise product placement and visibility on the online store.
 
-Guide promotional spend toward proven bestsellers.
+Align merchandising calendars with customer demand patterns.
 
 Challenges
-Balancing seasonal trends with evergreen product lines.
+Inconsistent sales performance data across digital channels.
 
-Fragmented sales data between in-store and online platforms.
+Managing fast-changing inventory in high-demand seasons.
 
-Overstocks due to poor forecasting on mid-tier products.
-
-Personality & Traits
-Detail-oriented and proactive
-
-Loves trendspotting and consumer psychology
-
-Keeps communication concise and data-backed
+Balancing aesthetics with conversion priorities.
 
 Quote
-“Let the numbers tell you what the customers already know—they love what works.”
+“If a product’s selling well, it deserves the front row—visually and strategically.”👤 User Persona: Sarah Patel
+Role: E-commerce Merchandising Lead
+Location: Leeds, UK
+Age: 29
+
+Background
+Sarah leads the merchandising team for an online fashion store. Her primary focus is ensuring that high-demand products are featured and stocked appropriately across the digital storefront. She monitors product-level performance and collaborates with marketing and supply chain teams to influence promotional timing and inventory prioritisation.
+
+Goals
+Identify top-selling products that drive revenue.
+
+Optimise product placement and visibility on the online store.
+
+Align merchandising calendars with customer demand patterns.
+
+Challenges
+Inconsistent sales performance data across digital channels.
+
+Managing fast-changing inventory in high-demand seasons.
+
+Balancing aesthetics with conversion priorities.
+
+Quote
+“If a product’s selling well, it deserves the front row—visually and strategically.”

@@ -1,60 +1,51 @@
-Certainly! Here's a professional user persona for a character named **Amina**, based on the given user story:
+👤 User Persona: Amina Khan
+Job Title: E-commerce Business Analyst
+Department: Commercial Intelligence & Strategy
+Industry: Online Retail
+Location: Birmingham, UK
+Age: 31
+Education: MSc in Data Analytics
+Experience: 6+ years in e-commerce and retail analytics
 
----
+🔍 Background
+Amina works at a fast-growing online retail company, where she plays a pivotal role in shaping data-informed decisions across marketing, supply chain, and sales operations. Her day-to-day responsibilities involve uncovering trends in customer purchasing behavior, analysing sales fluctuations, and aligning internal strategies to meet changing demand. She serves as the bridge between raw data and strategic execution, ensuring teams are equipped with timely and digestible insights.
 
-### 👤 **User Persona: Amina Khan**
+🎯 Goals
+Track and compare daily, weekly, and monthly sales trends
 
-**Job Title:** Business Analyst
-**Department:** Sales & Marketing Strategy
-**Industry:** Retail / E-commerce
-**Location:** Birmingham, UK
-**Age:** 31
-**Education:** MSc in Data Analytics
-**Experience:** 6+ years in data-driven decision support roles
+Improve demand forecasting accuracy to support stock planning
 
----
+Provide sales insights to optimize seasonal promotions and product launches
 
-#### **Background**
+Create clear dashboards and reports for non-technical stakeholders
 
-Amina is a skilled Business Analyst working in a fast-paced, data-rich environment. She collaborates closely with sales, inventory, and marketing teams to identify trends, inefficiencies, and growth opportunities. With a strong foundation in data visualization and forecasting, Amina bridges the gap between technical data outputs and business strategy.
+⚠️ Challenges
+Lack of unified visibility across platforms (e.g. Shopify, CRM, warehouse tools)
 
----
+Misalignment between marketing pushes and inventory availability
 
-#### **Goals**
+Need to translate complex datasets into business-ready visuals quickly
 
-* Identify sales trends on a **daily, weekly, and monthly** basis.
-* Improve **forecast accuracy** to optimize inventory management.
-* Align **marketing campaigns** with demand patterns.
-* Translate complex data into **actionable business insights** for stakeholders.
+Managing time-sensitive reporting during high-volume sale periods (e.g. Black Friday, Christmas)
 
----
+🛠️ Technology & Tools
+E-commerce Analytics: Shopify Analytics, Google Analytics
 
-#### **Challenges**
+BI & Forecasting: Power BI, Tableau, SQL
 
-* Limited visibility into evolving sales patterns across timeframes.
-* Difficulty aligning supply chain and marketing teams without timely insights.
-* Managing large datasets while ensuring reports remain **non-technical and accessible**.
+Data Handling: Excel, Python (pandas for sales data manipulation)
 
----
+Cross-Team Collaboration: Slack, Trello, Monday.com
 
-#### **Technology & Tools**
+💡 Personality & Traits
+Insight-driven and highly organised
 
-* **BI Platforms:** Power BI, Tableau
-* **Data Tools:** Excel, SQL, Python (basic)
-* **Collaboration:** Microsoft Teams, SharePoint, Confluence
+Excellent communicator across tech and non-tech teams
 
----
+Passionate about data storytelling and continuous improvement
 
-#### **Personality & Traits**
+Collaborative and responsive to changing business needs
 
-* Analytical and detail-oriented
-* Communicates complex findings in plain language
-* Strong collaborator with cross-functional teams
-* Proactive in suggesting data-informed improvements
-
----
-
-#### **Quote**
-
-> "Understanding how sales shift over time helps us not only stay stocked but stay ahead."
+🗣️ Quote
+“When I understand how and when people buy, I can help the whole business move faster and smarter.”
 
