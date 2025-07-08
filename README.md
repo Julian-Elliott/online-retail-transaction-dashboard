@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Online Retail Transaction Dashboard
 
 **Online Retail Transaction Dashboard** is a comprehensive data analytics tool designed to streamline customer behavior analysis and sales trend exploration. Using the Online Retail dataset, we developed an interactive dashboard to support data-driven decision-making across product performance, customer segmentation, and geographic markets.
@@ -41,3 +42,37 @@ The dataset contains records of transactions made through an online retail platf
 ---
 
 
+=======
+# Data Cleaning Summary
+This project focuses on preparing transaction data for accurate, consistent, and meaningful sales analysis. Below is a clear summary of the data cleaning steps followed.
+
+### Data Cleaning Steps
+
+1. Dropped Missing Product Descriptions:
+Any rows without a product description were deleted, as these records were incomplete and not useful for analysis.
+
+2. Filtered Out Adjustments and Negative Quantities:
+Transactions marked as adjustments or with negative quantities (such as product returns) were excluded to focus only on valid sales transactions.
+
+3. Removed Cancelled Orders:
+Orders marked as cancelled (identified by invoice numbers containing 'C') were removed to retain only completed sales.
+
+4. Removed Duplicates:
+We performed an duplicate check using key columns such as:
+
+- Invoice Number (InvoiceNo)
+- Product Code (StockCode)
+- Quantity
+-Customer ID (CustomerID)
+We did this to ensure no repeated transactions remained.
+
+5. Excluded Missing or Unspecified Countries:
+Transactions missing a country or marked as 'Unspecified' were dropped to maintain accurate geographic analysis.
+
+### Caveats & Examples:
+If a product description was missing, that row was removed (e.g., a transaction without a product name).
+
+Cancelled orders (e.g., InvoiceNo like 'C12345') and returns (transactions with negative quantities) were excluded from the analysis.
+
+Only transactions with a valid country were kept for geographic reporting.
+>>>>>>> Stashed changes
