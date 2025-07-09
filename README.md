@@ -101,3 +101,63 @@ If a product description was missing, that row was removed (e.g., a transaction 
 Cancelled orders (e.g., InvoiceNo like 'C12345') and returns (transactions with negative quantities) were excluded from the analysis.
 
 Only transactions with a valid country were kept for geographic reporting.
+
+
+### Feature Engineering Steps:
+
+#### 1. **TotalPrice**
+- Multiply `Quantity` by `UnitPrice` for each transaction line to compute total value.  
+- Formula: `TotalPrice = Quantity * UnitPrice`
+
+#### 2. **InvoiceMonth**
+- Extract the month from `InvoiceDate` for monthly analysis.  
+- Formula: `InvoiceMonth = month(InvoiceDate)`
+
+#### 3. **InvoiceDayOfWeek**
+- Extract the day of the week from `InvoiceDate` (0 = Monday, 6 = Sunday).  
+- Formula: `InvoiceDayOfWeek = weekday(InvoiceDate)`
+
+#### 4. **InvoiceWeekOfYear**
+- Extract the week number of the year from `InvoiceDate`.  
+- Formula: `InvoiceWeekOfYear = week_number(InvoiceDate)`
+
+#### 5. **ReturnsFlag**
+- Identify returns by checking if `UnitPrice` or `Quantity` is negative.  
+- Flag: `ReturnsFlag = 1` if `UnitPrice < 0` or `Quantity < 0`, else `0`.
+
+#### 6. **Recency**
+- Calculate the number of days since the customer's most recent purchase relative to a reference date.  
+- Formula:  
+  `Recency = ReferenceDate - LastInvoiceDate per CustomerID`
+
+#### 7. **MonetaryValue**
+- Total spending by customer across all transactions.  
+- Formula:  
+  `MonetaryValue = Sum of TotalPrice per CustomerID`
+
+#### 8. **CustomerFrequency**
+- Number of unique invoices per `CustomerID` to capture engagement level.  
+- Formula:  
+  `CustomerFrequency = count_unique(InvoiceNo) per CustomerID`
+
+---
+
+### 🧰 Python Tools / Libraries:
+- `pandas` for data manipulation  
+- `datetime` (via pandas) for date operations
+
+---
+
+### 🔑 Pseudocode:
+```plaintext
+1. Load dataset into pandas DataFrame.
+2. Compute TotalPrice: Quantity * UnitPrice.
+3. Convert InvoiceDate to datetime.
+4. Extract InvoiceMonth, InvoiceDayOfWeek, InvoiceWeekOfYear from InvoiceDate.
+5. Create ReturnsFlag: UnitPrice < 0 or Quantity < 0 → ReturnsFlag = 1 else 0.
+6. Calculate Recency per CustomerID:
+   - Determine last purchase date per CustomerID.
+   - Subtract from reference date.
+7. Compute MonetaryValue: Total spending per CustomerID.
+8. Compute CustomerFrequency: Number of unique invoices per CustomerID.
+9. Merge Recency, MonetaryValue, and CustomerFrequency back to main DataFrame.
