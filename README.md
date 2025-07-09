@@ -39,6 +39,35 @@ The dataset contains records of transactions made through an online retail platf
    Provide an accessible and dynamic visual interface for exploring business performance data.
 
 ---
+## 🧪 Hypothesis and How to Validate?
+
+This section outlines the key hypotheses derived from our business objectives and user stories. Each hypothesis is accompanied by a plan for validation through data analysis and visualisation.
+
+---
+
+### 🔍 Summary of Core Hypotheses
+
+| **ID** | **Hypothesis** |
+|--------|----------------|
+| H1 | The United Kingdom accounts for the majority of total revenue. |
+| H2 | A small group of products generates the majority of the revenue. |
+| H3 | Return transactions (negative quantities) significantly impact monthly revenue. |
+| H4 | High-frequency customers spend significantly more per transaction. |
+
+---
+
+### 🧪 Hypotheses Linked to User Stories
+
+| **User Story** | **Hypothesis** | **How to Validate It** |
+|----------------|----------------|-------------------------|
+| **1. Understand Sales Trends Over Time** | Sales volume and revenue follow clear temporal patterns (daily, weekly, monthly). | Plot sales (`TotalPrice`) over time using line charts grouped by day, week, and month. Identify recurring peaks and dips. |
+| **2. Segment Customers by Purchasing Behavior** | A small subset of customers contributes the most revenue and purchases most frequently. | Perform RFM (Recency, Frequency, Monetary) analysis and segment customers. Visualise segments using bar charts or scatterplots. |
+| **3. Identify Top-Performing Products** | A small number of products account for the majority of total revenue. | Rank products by total revenue (`Quantity * UnitPrice`). Use Pareto or bar charts to display their cumulative impact. |
+| **4. Geographic Sales Analysis** | Certain countries (e.g. UK, Netherlands) consistently outperform others in revenue and order count. | Aggregate sales by `Country`. Visualise with maps or horizontal bar charts, optionally filtered by product or date. |
+| **5. Measure Impact of Returns on Revenue** | Returned items (negative quantities) significantly affect monthly revenue trends. | Compare gross vs. net revenue by month. Visualise with dual or stacked line charts to show impact of returns. |
+| **6. Develop an Interactive Dashboard for Stakeholders** | Interactivity (e.g. filters, slicers) improves the accessibility and insights for non-technical users. | Include interactive elements (date, country, product filters). Validate through team testing or stakeholder feedback. |
+
+---
 
 ## Data Cleaning Summary
 This project focuses on preparing transaction data for accurate, consistent, and meaningful sales analysis. Below is a clear summary of the data cleaning steps followed.
