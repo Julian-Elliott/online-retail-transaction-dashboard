@@ -1,14 +1,31 @@
 # Online Retail Transaction Dashboard
 The Online Retail Transaction Dashboard is a comprehensive data analytics solution designed to simplify customer behaviour analysis and sales trend exploration. Using the Online Retail dataset, we developed an interactive dashboard to support data-driven decision-making across areas such as product performance, customer segmentation, and geographic sales analysis.
 
+** [View the Interactive Tableau Dashboard](https://public.tableau.com/app/profile/julian.elliott/viz/online-retail-dashboard/Home?publish=yes)**
+
 ## Table of Contents
+
 - [Dataset Content](#dataset-content)
 - [Business Requirements](#business-requirements)
+- [Hypotheses and Validation Approach](#hypotheses-and-validation-approach)
+- [The Rationale to Map the Business Requirements to the Data Visualisations](#the-rationale-to-map-the-business-requirements-to-the-data-visualisations)
 - [Analysis Techniques Used](#analysis-techniques-used)
 - [Data Cleaning Summary](#data-cleaning-summary)
+  - [Data Cleaning Steps](#data-cleaning-steps)
+  - [Caveats & Examples](#caveats--examples)
+  - [Summary of Findings with the Raw Data and Cancellations](#summary-of-findings-with-the-raw-data-and-cancellations)
+  - [Additional Data Refinement Steps](#additional-data-refinement-steps)
 - [Feature Engineering Steps](#feature-engineering-steps)
+- [Insights from Statistical Analysis & User Stories](#insights-from-statistical-analysis--user-stories)
+- [Ethical Considerations](#ethical-considerations)
 - [Dashboard Design](#dashboard-design)
-- [Credits](#credits)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Development Roadmap](#development-roadmap)
+  - [Challenges and Solutions](#challenges-and-solutions)
+- [Main Data Analysis Libraries](#main-data-analysis-libraries)
+  - [Pseudocode](#pseudocode)
+- [Credits](#content)
+  - [Media](#media)
 - [Acknowledgements](#acknowledgements)
 
 ## Dataset Content
@@ -54,6 +71,39 @@ This section outlines the key hypotheses derived from our business objectives an
 | 4. Geographic Sales Analysis | Certain countries (e.g., UK, Netherlands) consistently outperform others in revenue and order count. | Aggregate sales by country. Visualise using maps or bar charts, with optional filters by product or date. |
 | 5. Measure Impact of Returns on Revenue | Returns significantly affect monthly revenue trends. | Compare gross and net monthly revenue using line charts or stacked visuals. |
 | 6. Develop an Interactive Dashboard for Stakeholders | Interactivity improves usability for non-technical stakeholders. | Add filters (date, country, product) and test with end users to ensure insights are accessible. |
+
+## Insights from Statistical Analysis & User Stories
+
+We tested several important business assumptions using data analysis to understand our sales, customers, and products better. Here’s what we found:
+
+### UK Sales Lead the Market
+- Most of our revenue—about 85%—comes from the UK.  
+- This shows that the UK is our main market, so we should focus our efforts there.
+
+### A Small Number of Products Make Most of the Money
+- Around 20% of our products bring in 80% of the revenue.  
+- This means a few top products are the biggest drivers of sales.
+
+### Customers Fall into Distinct Groups
+- Our customers differ a lot in how often they buy and how much they spend.  
+- We can use this to better target promotions and offers.
+
+### Sales Show Clear Seasonal Patterns
+- Sales go up and down in predictable ways throughout the year, which helps with planning stock and marketing.
+
+### Returns Data Needs More Work
+- We couldn’t clearly measure how returns affect revenue because some data was missing or incomplete.  
+- This is an area to improve.
+
+### Frequent Shoppers Don’t Always Spend More
+- Buying often doesn’t necessarily mean spending more each time.  
+- Customer habits vary widely.
+
+### Interactive Dashboard Using Tableau
+- We are building an interactive dashboard with Tableau to help stakeholders explore these insights easily.  
+- User feedback will guide further improvements to make sure the dashboard is as helpful as possible.
+
+These findings help us build a dashboard that focuses on the most important sales drivers, customer segments, and trends, making it easier for business users to make smart decisions.
 
 ## The Rationale to Map the Business Requirements to the Data Visualisations
 
