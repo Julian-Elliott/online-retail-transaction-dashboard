@@ -102,6 +102,37 @@ Cancelled orders (e.g., InvoiceNo like 'C12345') and returns (transactions with 
 
 Only transactions with a valid country were kept for geographic reporting.
 
+### Summary of Findings with the Raw Data and Cancellations
+
+During our initial exploration of the raw Online Retail transactions dataset, we identified several extreme values where unusually high quantities of items were ordered. These cases likely represent accidental or erroneous orders, as they are often followed by prompt cancellations.
+
+A challenge in cleansing these records is that the `InvoiceNo` field does not directly link the original order to its corresponding return or cancellation invoice. This lack of linkage means it is not straightforward to automatically pair and remove both the original and cancelled transactions. Given the time constraints of this analysis, we have chosen to focus on removing these extreme cases using available data analysis techniques rather than attempting to fully reconcile all cancellations.
+
+Other notable findings include the presence of high unit prices associated with certain entries. These are typically seen with transactions involving Amazon fees, postage costs, and some manually entered product descriptions. These special cases may require separate handling or exclusion, depending on the analysis objectives.
+
+---
+
+### Additional Data Refinement Steps
+
+In addition to the initial data cleaning steps, we applied further data refinement techniques to improve dataset quality, particularly for analysis within Tableau.
+
+Key steps included:
+
+- **Excluded transactions identified as cancellations and bad debt.**
+- **Removed invoices containing alphabetic characters** to retain only valid numeric invoice records.
+- **Applied a Tableau calculation to filter product descriptions.**
+  - Product descriptions without at least two consecutive uppercase characters were excluded. These entries generally represent stock adjustments, write-offs, or internal records not relevant to sales analysis.
+- Additionally, we removed several specific product descriptions identified as irrelevant for the analysis, including:
+  - `.COM POSTAGE`
+  - `POSTAGE`
+  - `AMAZON FEE`
+  - `STORING STOCK IN AMAZON`
+  - `SINGLE ITEM`
+  - `EXPORT POSTAGE`
+  - `CARRIAGE`
+
+> *Note: The Tableau calculation used for product description filtering was based on identifying at least two consecutive uppercase letters to retain only valid, meaningful product sales.*
+
 
 ### Feature Engineering Steps:
 
