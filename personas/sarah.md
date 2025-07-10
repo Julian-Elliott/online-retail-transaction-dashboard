@@ -5,7 +5,6 @@ Location: Leeds, UK
 Age: 29
 
 📘 Background: 
-
 Sarah leads the merchandising team for an online fashion store. Her primary focus is ensuring that high-demand products are featured and stocked appropriately across the digital storefront. She monitors product-level performance and collaborates with marketing and supply chain teams to influence promotional timing and inventory prioritisation.
 
 🎯 Goals:
